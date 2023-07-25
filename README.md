@@ -11,7 +11,7 @@ Before running the application, make sure you have completed the following steps
 Create a db.json file in the project directory with the sample data for the backend. Use the data provided in the db.json file (replace with the actual link to your db.json file).
 
 Run the following command to start the backend server using 
-npm star
+npm run server and then run npm start to see your web application
 
 Test your server by visiting the following route in the browser:
 
