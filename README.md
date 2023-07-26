@@ -6,12 +6,14 @@ The project involved use of react
 This is a React application that displays a list of your recent bank transactions and allows you to add new transactions and filter them by description.
 
 ## Project Setup & Pre-requisite Data
+Deployed site: https://storied-chimera-b22701.netlify.app/
+
 Before running the application, make sure you have completed the following steps:
 
 Create a db.json file in the project directory with the sample data for the backend. Use the data provided in the db.json file (replace with the actual link to your db.json file).
 
 Run the following command to start the backend server using 
-npm run server and then run npm start to see your web application
+npm run server and then check on this link https://storied-chimera-b22701.netlify.app/
 
 Test your server by visiting the following route in the browser:
 
