@@ -21,7 +21,7 @@ function NewTransactionForm({onSubmission}) {
         setFormData({...formData,[e.target.name]:e.target.value})
     }
   return (
-    <form onChange={handleChange} onSubmit={handleSubmit} id="new-item-form">
+    <form onChange={handleChange} onSubmit={handleSubmit} id="new-item-form"className='form'>
         <div>
             <label htmlFor='date'>Date</label>
             <input value ={formData.date} name='date' type='date' id='date'/>

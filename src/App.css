@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px; 
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  padding: 5px;
+}
+input {
+  padding: 5px;
+  width: 30%;
+  margin-bottom: 5px;
+}
+button {
+  padding: 3px;
+  border-radius: 5px;
+}
+h2{
+  color:purple;
+  text-align: center;
+}

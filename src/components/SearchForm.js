@@ -7,9 +7,9 @@ function SearchForm({onSearching}) {
         onSearching(search)
     }
   return (
-    <form onChange={handleChange} id="search-form">
+    <form onChange={handleChange} id="search-form" className='form'>
         <input value={ search}type={'text'} placeholder='Search recent transactions..'/>
-        <button></button>
+        <button>Search</button>
     </form>
   )
 }
