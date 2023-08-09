@@ -8,7 +8,7 @@ import SearchForm from "./components/SearchForm";
 function App() {
   const [transactions, setTransactions] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/transactions")
+    fetch("https://bank-flatiron-data.onrender.com/transactions")
       .then((r) => r.json())
       .then((data) => setTransactions(data)); // setter function renders
   }, []); //dependency array allows it to render once
@@ -24,7 +24,7 @@ function App() {
       },
       body: JSON.stringify(newtransaction),
     };
-    fetch(" http://localhost:3000/transactions", serverOptions)
+    fetch("https://bank-flatiron-data.onrender.com/transactions", serverOptions)
       .then((r) => r.json())
       .then((newItem) => console.log(newItem))
       .catch((err) => console.log(err));

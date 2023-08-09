@@ -7,6 +7,7 @@ This is a React application that displays a list of your recent bank transaction
 
 ## Project Setup & Pre-requisite Data
 Deployed site: https://storied-chimera-b22701.netlify.app/
+Deployed server: https://bank-flatiron-data.onrender.com/transactions
 
 Before running the application, make sure you have completed the following steps:
 

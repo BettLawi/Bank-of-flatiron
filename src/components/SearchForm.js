@@ -14,4 +14,4 @@ function SearchForm({onSearching}) {
   )
 }
 
-export default SearchForm
+export default SearchForm;
